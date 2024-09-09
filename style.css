@@ -1,0 +1,93 @@
+
+*
+{
+  
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+html{
+  font-size: 62.5%;
+
+}
+ body{
+    
+   font-size : 2rem;
+   padding:15px;
+ }
+
+ input {
+	 
+	 height: 30px;
+	 margin: 3px;
+	 padding: 10px;
+ }
+ 
+ .traffic-box{
+	 border: 5px solid #222;
+    padding: 3px 0;
+    width: 12%;
+    margin: 20px auto;
+	background-color: black;
+	
+ }
+ .traffic-mil{
+	height:100px;
+width:10px;
+background-color:black;	
+margin: -20px auto;
+ }
+ .traffic-down{
+    padding: 3px 0;
+    width: 12%;
+	height:10px;
+    margin: 10px auto;
+	background-color: black;
+ }
+ .text{
+   display:flex;
+text-align:center;
+justify-content:center;   
+ }
+ 
+.btn{
+	background-color: #60ff00; 
+	font-weight: bold;
+	width:100%;
+ }
+
+.traffic-light {
+	
+	justify-content:center;
+	align-content:center;
+	border:1px solid gray;
+	padding: 10px;
+	margin:30px 50px;
+}
+
+span {
+	margin: 5px 10px;
+	
+}
+.light_box{
+	border:2px solid #000;
+	height:40px;
+	width:20%;
+	color:black;
+	padding:5px;
+}
+.light_color1,.light_color2,.light_color3{
+border:2px solid #000;
+width:50px;
+height:50px;
+background-color:white;
+border-radius:50%;
+}
+p, .light-warning{
+	margin:15px auto;
+	text-align:center;
+}
